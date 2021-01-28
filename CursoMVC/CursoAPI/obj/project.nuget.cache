@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TBdlHU2y8qAYc5qrj9FQr2BdWoEcubn0QYT/SkHMSCwDxcu23VmS8LOa7bo1kILbhc+Y2WCPOdAxI1W2Vs8Y9g==",
+  "dgSpecHash": "HvJPh/EWggv9VL0KFPHaEZQS8z3yPFik+wjsd2WnfrPNllwX9BfZUyMYlyczjffhPJH4VstIIBe7axxundeviA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jmc\\source\\repos\\CursoMVC\\CursoAPI\\CursoAPI.csproj",
+  "projectFilePath": "C:\\wordspaceDIO\\nove\\CursoMVC\\CursoAPI\\CursoAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jmc\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Jmc\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
