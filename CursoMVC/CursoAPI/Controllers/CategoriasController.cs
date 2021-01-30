@@ -83,7 +83,7 @@ namespace CursoAPI.Controllers
         public async Task<ActionResult<Categoria>> PostCategoria(Categoria categoria)
         {
             _context.Categorias.Add(categoria);
-            _context.Categorias.Add(categoria);
+          
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetCategoria", new { id = categoria.Id }, categoria);
