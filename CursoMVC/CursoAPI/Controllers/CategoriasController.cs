@@ -32,6 +32,8 @@ namespace CursoAPI.Controllers
         public async Task<ActionResult<Categoria>> GetCategoria(int id)
         {
             var categoria = await _context.Categorias.FindAsync(id);
+           
+
 
             if (categoria == null)
             {
@@ -52,7 +54,8 @@ namespace CursoAPI.Controllers
                 return BadRequest();
             }
 
-            _context.Entry(categoria).State = EntityState.Modified;
+            
+            _context.SetModified(categoria);
 
             try
             {
@@ -79,6 +82,7 @@ namespace CursoAPI.Controllers
         [HttpPost]
         public async Task<ActionResult<Categoria>> PostCategoria(Categoria categoria)
         {
+            _context.Categorias.Add(categoria);
             _context.Categorias.Add(categoria);
             await _context.SaveChangesAsync();
 
