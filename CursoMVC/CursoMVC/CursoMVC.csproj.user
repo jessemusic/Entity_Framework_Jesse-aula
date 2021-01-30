@@ -11,6 +11,6 @@
     <WebStackScaffolding_DbContextTypeFullName>CursoMVC.Models.Context</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_IsViewGenerationSelected>True</WebStackScaffolding_IsViewGenerationSelected>
-    <NameOfLastUsedPublishProfile>CursoMVC20210130002333 - Web Deploy</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>CursoMVC20210130004833 - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

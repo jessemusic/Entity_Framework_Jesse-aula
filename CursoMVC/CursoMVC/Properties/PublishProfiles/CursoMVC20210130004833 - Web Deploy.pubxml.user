@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Esse arquivo é usado pelo processo de publicação/pacote do seu projeto Web. É possível personalizar o comportamento deste processo
+ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsKuv9EctG0W4phJUfOr8hQAAAAACAAAAAAAQZgAAAAEAACAAAAByvfEE9u2xE6jGyRz+8wYM1FZzM9h+jI4QTuAY7MNr9wAAAAAOgAAAAAIAACAAAABtkYO4Uj3FFXfnQ4QXyW0oxQBzddemmEXZ+9Ch+z64xIAAAADNl43FQ01vD94HRFa9a9Q9NhHfMk1Qjif7DMHPaacPr42xFRgUj7iSMHaRP502eCLzCAKIKmJt/Kp8CgkYp4rhiTvIyOvKt+QbubEGO96HpxGyJseRKnbPyUwjGVZ5dQRG+hNrbIq/Gl5u3ATcYHAHs9J+NJm2jD+ZydtVdplmq0AAAABlxBpZFTxUHvGDz60xykxSpo4kp5Wg/dquh1yELsV0h5KcOpSFSyj8tKe3cfpQDE7xp2DgT6wsYu3rmWDt1kvM</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="cursojhessy">
+      <Value>Data Source=tcp:cursojhessy.database.windows.net,1433%3bInitial Catalog=CursoMVC_db%3bUser Id=jesse%40cursojhessy%3bPassword=Uncle121</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="CursoMVC.Models.Context">
+      <Value>Data Source=tcp:cursojhessy.database.windows.net,1433%3bInitial Catalog=CursoMVC_db%3bUser Id=jesse%40cursojhessy%3bPassword=Uncle121</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
